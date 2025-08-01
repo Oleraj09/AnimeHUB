@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'QuincyCF';
+    src: url('/fonts/quincycf-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuincyCF';
+    src: url('/fonts/quincycf-medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuincyCF';
+    src: url('/fonts/quincycf-bold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'QuincyCF', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* ---------Logo--------------- */
+.logo {
+    position: relative;
+    display: inline;
+}
+
+.logo::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #2d50a7;
+    left: 0;
+    bottom: 0;
+}
+/* --------Footer Line--------- */
+.line {
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    background: #222;
+    margin: auto;
+    top: 0;
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    background: #222;
+    margin: auto;
+    top: -5px;
+    left: 0;
+    right: 0;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 80%;
+    background: #222;
+    margin: auto;
+    top: 5px;
+    left: 0;
+    right: 0;
+}
+/* --------Select Dowpdown Icon---- */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='blue' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  padding: 0 20px 0 10px;
+  color: #2d50a7;
+}

@@ -1,0 +1,77 @@
+img.banner-img {
+    height: 100%;
+}
+
+.overlay {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(270deg, transparent 0, rgb(36, 36, 40) 30%, rgb(36, 36, 40) 70%, transparent);
+    mask-image: linear-gradient(270deg, transparent 0, rgb(36, 36, 40) 30%, rgb(36, 36, 40) 70%, transparent);
+}
+
+.overlay-vertical {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(180deg, transparent 0, rgb(36, 36, 40) 30%, rgb(36, 36, 40) 70%, transparent);
+    mask-image: linear-gradient(180deg, transparent 0, rgb(36, 36, 40) 30%, rgb(36, 36, 40) 70%, transparent);
+}
+
+p.vertical-title {
+    writing-mode: vertical-rl;
+    transform: rotate(0deg);
+    white-space: nowrap;
+}
+
+hr {
+    height: 1px;
+    background: #808080;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.transition-item {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.transition-item.visible {
+    max-height: 100px;
+    opacity: 1;
+}
+
+.glass-effect {
+    background: #1e2939;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.text-shadow {
+    text-shadow: 10px 10px 10px #302e2e;
+    -webkit-text-stroke: 0.1px #000;
+    display: inline-block;
+    transform-origin: center;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.hover-cat:hover {
+    color: aqua !important;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.loading-prev{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: #1e2939;
+    top: 0;
+    left: 0;
+}
+.center-laod{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
