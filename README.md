@@ -1,3 +1,12 @@
+## React + Jikan API (AnimeHUB)
+- Simple and Minimal Design
+- Custom Hook for fetch Data, Reusable Component etc
+- Live Link: <a href="https://anime.olerajhossin.xyz/">AnimeHubBangladesh</a>
+
+  
+![User Interface](https://github.com/Oleraj09/Condosale-API-Integration/blob/master/assets/images/screenshot.png)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
