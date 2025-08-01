@@ -4,7 +4,7 @@
 - Live Link: <a href="https://anime.olerajhossin.xyz/">AnimeHubBangladesh</a>
 
   
-![User Interface](https://github.com/Oleraj09/Condosale-API-Integration/blob/master/assets/images/screenshot.png)
+![User Interface](https://github.com/Oleraj09/AnimeHUB/blob/master/images/animhub.png)
 
 
 # React + Vite
